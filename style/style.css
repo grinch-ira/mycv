@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
 body {
-  font-family: 'Dongle', sans-serif;
+  font-family: 'Old Standard TT', serif;
   min-width: 100%;
-  background-color: #ac9e9399;
+  background-color: #c8bab1a4;
 }
 
 .wrapper {
@@ -20,15 +20,14 @@ body {
 }
 
 .aside {
-  background-color: #9c4f4266;
-  width: 45%;
+  background-color: #976363be;
+  width: 35%;
   display: block;
 }
 
 .aside__photo {
   margin: 15px auto;
-  width: 370px;
-  height: 370px;
+  width: 80%;
 }
 
 .aside_img {
@@ -41,33 +40,32 @@ body {
 .aside__information {
   text-align: center;
   color: #d2cfca;
-  font-size: 45px;
+  font-size: 30px;
 }
 
 .information-contact {
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 .text__phone {
   color: #d2cfca;
 }
-
-.text__phone:hover {
-  font-size: 50px;
-  transition: all 0.4s ease 0s;
+.contacts-text__email{
+  margin-top: 15px;
 }
 
 .text__email {
   color: #d2cfca;
 }
+
 .information-education {
   margin-bottom: 30px;
 }
 
 .main {
-  background-color: #51687266;
+  background-color: #5b677fb0;
   padding: 5%;
-  width: 55%;
+  width: 65%;
 }
 
 .main__header {
@@ -75,12 +73,12 @@ body {
 }
 
 .name {
-  font-size: 70px;
+  font-size: 60px;
   letter-spacing: 1px;
 }
 
 .prof {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .main__about {
@@ -88,22 +86,27 @@ body {
 }
 
 h2 {
-  font-size: 65px;
+  font-size: 55px;
 }
 
 .about_me {
-  font-size: 45px;
+  margin-top: 3%;
+  font-size: 35px;
+  line-height: 1.3em;
+}
+
+.aside__skills {
+  background-color: #b3a394;
+  padding: 3% 0;
 }
 
 .skills_title {
   font-size: 55px;
-  margin: 20px 0;
   text-align: center;
+  margin-bottom: 3%;
 }
 
-.aside__skills {
-  background-color: #a29f8c99;
-}
+
 
 .main__skills {
   font-size: 20px;
@@ -206,16 +209,18 @@ h2 {
   align-items: flex-start;
 }
 
-.item__museum,
+.item__shelter,
 .item__mem,
 .item__momentum,
-.item__quiz {
+.item__rslang,
+.item__pma,
+.item__sea-battle {
   width: 80%;
   height: 80%;
 }
 
 .footer {
-  background-color: #caa89999;
+  background-color: #b3a394;
   padding: 1% 0;
 }
 
