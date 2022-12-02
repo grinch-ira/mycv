@@ -109,11 +109,10 @@ h2 {
 
 
 .main__skills {
-  font-size: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 650px;
+  width: 45%;
   margin: 0 auto;
   flex-wrap: wrap;
 }
@@ -273,8 +272,7 @@ h2 {
     font-size: 35px;
   }
 
-  .about_me,
-  .main__skills {
+  .about_me {
     font-size: 35px;
   }
 
@@ -296,8 +294,7 @@ h2 {
 }
 
 @media (max-width: 620px) {
-  .about_me,
-  .main__skills {
+  .about_me {
     font-size: 20px;
   }
 
@@ -323,8 +320,7 @@ h2 {
     font-size: 20px;
   }
 
-  .about_me,
-  .main__skills {
+  .about_me {
     font-size: 15px;
   }
 
