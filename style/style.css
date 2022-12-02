@@ -214,7 +214,8 @@ h2 {
 .item__momentum,
 .item__rslang,
 .item__pma,
-.item__sea-battle {
+.item__sea-battle,
+.item__virtual-keyboard {
   width: 80%;
   height: 80%;
 }
